@@ -70,10 +70,19 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-td p {
+.cw-1 {
   width: 50vw;
 }
 
-tr {
+.cw-2 {
+  width: 5rem;
+}
+
+tr, td {
   height: 5rem;
+}
+
+/* will change the cursor styling when hoving over the button */
+#save-button:hover {
+  cursor:pointer
 }
